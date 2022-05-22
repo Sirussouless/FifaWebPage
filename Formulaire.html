@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="bootstrap.min">
+</head>
+<body bgcolor="05f57d">
+
+<fieldset style="border:4px rgb(99, 10, 184) solid;">
+    <legend class="legend"><u><b><font color="8105f5">INFORMATIONS</font></b></u></legend>
+    <fieldset style="border:4px rgb(63, 13, 243) dotted;">  
+    <legend><b><I><font color="f80a8d">Etat Civil</font></I></b></legend>
+    <div class="mark"><label for="nom">Nom:</label>
+    <input type="text" id="nom" placeholder="Nom"required></div>
+    <br>
+    <label for="Prenom">Prenoms:</label>
+    <input type="text" id="Prenom" placeholder="Prenom"required>
+    </fieldset>                 
+    <fieldset style="border:2px rgb(59, 6, 250) solid;">
+     <legend><b><i><font color="a409f8">Profil</font></i></b></legend>
+     <label for="email">Email:</label>
+     <input type="email" id="nom" placeholder="Adresse email"required>
+     <br><br>
+     <label for="mot de passe">Mot de passe:</label>
+     <input type="password" id="mot" placeholder="Mot de passe"required>
+     <br><br>
+     <label for="photo">Photo:</label>
+     <input type="file" placeholder="Choisir une photo"required>
+    </fieldset>
+    
+    <h3>Sexe:</h3>
+    <input type="radio" name="sexe" id="sexe">
+    <label for="sexe">Masculin</label>
+    <br>
+    <input type="radio" name="sexe" id="sexe">
+    <label for="sexe">Feminin</label>
+    
+    <br>
+    <label for="pays d'origine"><h3>Pays d'origine:</h3></label>
+    <select id="select" name="Pays d'origine">
+        <option>BENIN</option>
+        <option>Burkina Faso</option>
+        <option>Niger</option>
+        <option>Nigeria</option>
+        <option>Cameroon</option>
+        <option>Senegal</option>
+        <option>Canada</option>
+        <option>Algerie</option>
+        <option>Mali</option>
+        <option>Guinee Bisseau</option>
+        <option>Egypte</option>
+        <option>Togo</option>
+        <option>Cap Vert</option>
+        <option>Botswana</option>
+        <option>Comores</option>
+        <option>Burundi</option>
+        <option>Afrique du sud</option>
+        <option>Madagacar</option>
+        <option>Cote d'Ivoire</option>
+        <option>RDC</option>
+        <option>Zimbabwe</option>
+        <option>Guinee Equatorial</option>
+        <option>Somalie</option>
+        <option>Liberiia</option>
+        <option>Sierra-Leon</option>
+        <option>Cobo Vert</option>
+        <option>Gambie</option>
+        <option>Mozambique</option>
+    </select>
+    <br>
+    <label for="pase-temps preferes"><h3>Passe-temps preferes:</h3></label>
+    <input type="checkbox" name="Musique" id="musique"><label for="musique">Musique</label>
+    <br><input type="checkbox" name="danse" id="danse"><label for="danse">Danse</label>
+    <br><input type="checkbox" name="Football" id="football"><label for="football">Football</label>
+    <br><input type="checkbox"name="dormi"id="dormir"><label for="dormir">Dormir</label>
+    <br><input type="checkbox"name="lire" id="lire"><label for="lire">Lecture</label>
+    <br><input type="checkbox" name="chanter" id="chanter"><label for="chanter">Chanter</label>
+    <br><button>Quitter </button>
+    <button>Envoyer</button>
+    <button>Annuler</button>
+</fieldset>
+
+</body>
+</html>
